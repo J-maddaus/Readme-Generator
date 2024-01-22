@@ -40,6 +40,16 @@ inquirer
             type: 'input'
         },
         {
+            name: 'Github',
+            message: 'What is your Github username?',
+            type: 'input'
+        },
+        {
+            name: 'Email',
+            message: 'What is your email address?',
+            tyope: 'input'
+        },
+        {
             name: 'Contributions',
             message: 'Who/What were the contributers to this application? And how can i also contribute?',
             type: 'input'
@@ -50,7 +60,7 @@ inquirer
             type: 'input'
         }
     ])
-    // genearates readme content based on user input
+    // generates readme content based on user input
     .then((responses) => {
 
         const readmeContent = `
@@ -74,7 +84,12 @@ ${responses.Installation}
 ## Usage
 ${responses.Usage}
 
-## Contributions
+## Questions
+### Reach me at:
+[${responses.Github}](https://github.com/${responses.Github})
+${responses.Email}
+
+## How to contribute
 ${responses.Contributions}
 
 ## Testing
