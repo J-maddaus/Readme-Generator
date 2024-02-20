@@ -101,11 +101,11 @@ Licensed under the [${responses.license}](LICENSE) license.
 `;
 
         // Write README content to  new file
-        fs.writeFile('README.md', readmeContent, (err) => {
+        fs.writeFile('Sample.md', readmeContent, (err) => {
             if (err) {
                 console.error(err);
             } else {
-                console.log('README.md successfully generated!');
+                console.log('Sample.md successfully generated!');
             }
         });
     });
