@@ -17,9 +17,9 @@
 
   ## Description
   This application is for Coding Bootcamp. It generates a comprehensive README file based on user input.  
-  [Link to Example Video]([https://drive.google.com/file/d/18n6uY_HNIADkxutJFTiaI3kWlkSPQrvI/view])
-  [Homework Week 9 README Generator Site]([https://j-maddaus.github.io/Readme-Generator/])  
-  [Homework Week 9 README Generator Repository]([https://github.com/J-maddaus/Readme-Generator])  
+  [Link to Example Video](https://drive.google.com/file/d/18n6uY_HNIADkxutJFTiaI3kWlkSPQrvI/view)
+  [Homework Week 9 README Generator Site](https://j-maddaus.github.io/Readme-Generator/)  
+  [Homework Week 9 README Generator Repository](https://github.com/J-maddaus/Readme-Generator)  
 
   ## Installation
   Clone the repository. 
